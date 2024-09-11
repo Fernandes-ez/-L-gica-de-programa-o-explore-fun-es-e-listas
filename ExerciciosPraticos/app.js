@@ -1,27 +1,33 @@
-function ola(){
+function ola() {
     alert('Olá mundo!');
 }
-function olaNome(){
+
+function olaNome() {
     let nome = prompt('Insira seu nome');
-    alert(`Ola ${nome}`);
+    alert(`Olá ${nome}`);
 }
-function dobro(numero){
-    let numero = prompt('Insira um número')
-    return parseInt(numero)*2;
+
+function dobro() {
+    let numero = prompt('Insira um número');
+    return parseInt(numero) * 2;
 }
-let resultadoDobro = dobro
-alert
-function media(n1,n2,n3){
-    let media = parseInt((n1+n2+n3)/3);
-    return(media);
+
+let resultadoDobro = dobro();
+alert(resultadoDobro);
+
+function media(n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
 }
-function maior(n1,n2){
-    if(n1>n2){
-        return(n1)
-    }else{
-        return(n2)
+let mediaCalculada = media(4,46,52)
+alert(mediaCalculada);
+function maior(n1, n2) {
+    if (n1 > n2) {
+        return n1;
+    } else {
+        return n2;
     }
 }
-function multiplicacao(num){
-    return parseInt(num*num);
+
+function multiplicacao(num) {
+    return num * num;
 }
