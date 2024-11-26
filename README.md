@@ -1,1 +1,0 @@
-# -L-gica-de-programa-o-explore-fun-es-e-listas
